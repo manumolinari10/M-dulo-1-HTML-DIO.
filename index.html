@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página - Módulo I - Primeiros Passos com HTML</title>
+</head>
+
+<body>
+    <h1 id="inicio">Módulo 1 - Primeiros Passos com HTML</h1>
+    <hr />
+
+    <h2>Índice</h2>
+
+    <ul>
+        <li><a href="#computadores">História dos computadores</a></li>
+        <li><a href="#clients">O que são <i>Clients</i>?</a></li>
+        <li><a href="#servers">O que são <i>Servers</i>?</a></li>
+        <li><a href="#estrutura">Como é uma estrutura básica de um HTML?</a></li>
+        <li><a href="#diferença">Entendendo a diferença entre listas ordenadas e não ordenadas</a></li>
+        <li><a href="#links">Links de referências</a></li>
+    </ul>
+
+    <h2 id="computadores">História dos computadores</h2>
+    <small><a href="#inicio">(Voltar)</a></small>
+    <p>
+        A história dos computadores começou há muitas décadas, com máquinas enormes
+        e bem limitadas, como o <strong><abbr>ENIAC</abbr></strong>, criado nos anos <u>1940</u>. Com o tempo, os
+        computadores foram evoluindo, ficando
+        <mark><u>menores, mais potentes e acessíveis</u></mark>. Nos anos <u>1970</u> e <u>1980</u> surgiram os
+        computadores
+        <strong>pessoais</strong>, o que abriu caminho
+        para o uso <mark><u>doméstico e comercial em larga escala.</u></mark>
+
+    <p>
+        Já a <strong>World Wide Web</strong> (WWW) foi criada em 1989 por <i>Tim Berners-Lee</i>, um cientista
+        britânico.
+        Ele desenvolveu a web
+        como uma forma de <mark><u>compartilhar informações entre cientistas do mundo todo usando a internet</u></mark>.
+        A
+        <u>primeira</u> página
+        foi colocada no ar em <u>1991</u>. Desde então, a web transformou a maneira como a gente acessa informação, se
+        comunica
+        e vive o dia a dia.
+    </p>
+
+    <p>
+        Aqui está o link da primeira página web publicada: <a href="http://info.cern.ch/"
+            target="_blank">http://info.cern.ch/</a>
+    </p>
+    <p>
+        Para saber mais, clique nos links abaixo:
+    <ul>
+        <li><a href="https://www.todamateria.com.br/historia-e-evolucao-dos-computadores/" target="_blank">História e
+                Evolução dos Computadores</a></li>
+        <li><a href="https://www.todamateria.com.br/historia-da-internet/" target="_blank">História da Internet</a></li>
+    </ul>
+    </p>
+
+    </p>
+
+
+    <h2 id="clients">O que são <i>Clients</i>?</h2>
+    <small><a href="#inicio">(Voltar)</a></small>
+    <p>
+        <strong><i>Clients</i></strong> são basicamente os <mark><u>dispositivos ou programas que fazem requisições a um
+                servidor</u></mark>. <mark><u>Eles são a "ponta" que
+                interage com o usuário final</u></mark>. Por exemplo, quando a gente acessa um site pelo navegador, o
+        navegador está agindo
+        como um <strong><u>client</u></strong>. Ele <mark><u>envia pedidos para um servidor e recebe de volta as
+                informações (como páginas, imagens,
+                etc.)</u></mark>. <u>Em sistemas distribuídos<sup>*</sup></u>, o client pode ser <u><i>qualquer</i></u>
+        parte que consome serviços ou dados de outra —
+        geralmente de um <strong><u><i>servidor</i></u></strong>.
+    </p>
+
+    <p>
+        Para saber mais, clique no link abaixo:
+    <ul>
+        <li><a href="https://driftweb.com.br/glossario/o-que-e-client-side-entenda-sua-importancia/" target="_blank">O
+                que é: Client-side</a></li>
+    </ul>
+    </p>
+
+    <h2 id="servers">O que são <i>Servers</i>?</h2>
+    <small><a href="#inicio">(Voltar)</a></small>
+    <p>
+        <strong><i>Servers</i></strong>, ou <strong><i>servidores</i></strong>, são <mark><u>computadores ou sistemas
+                dedicados a fornecer serviços, recursos ou dados para outros
+                dispositivos, chamados de "clientes", em uma rede</u></mark>. Eles <mark><u>são fundamentais para
+                praticamente tudo na internet –
+                desde armazenar sites e bancos de dados até hospedar jogos e e-mails</u></mark>. Em resumo, um server é
+        como um <mark><u>"centro de
+                comando"</u></mark> que responde às solicitações dos usuários e mantém tudo funcionando em segundo
+        plano.
+    </p>
+    <p>
+        Para saber mais, clique no link abaixo:
+    <ul>
+        <li><a href="https://tech.pedrogalvao.com/data/o-que-sao-servidores/" target="_blank">O que são Servidores?</a>
+        </li>
+    </ul>
+    </p>
+
+    <h2 id="estrutura">Como é uma estrutura básica de um HTML?</h2>
+    <small><a href="#inicio">(Voltar)</a></small>
+    <p>
+        Quando eu crio uma página HTML, eu sempre começo com uma estrutura básica: <br>
+    <ol>
+        <li> Primeiro vem a declaração
+            <mark><u>
+                    < !DOCTYPE html>
+                </u></mark>, que <u>informa ao navegador que o documento está em HTML5</u>.
+        </li>
+        <li> Em seguida, uso a tag <mark><u>
+                    < html>
+                </u></mark>, que
+            <u>envolve todo o conteúdo da página</u>. Dentro dela, coloco duas partes principais: o
+
+            <mark><u>
+                    < head>
+                </u></mark> e o
+
+            <mark><u>
+                    < body>
+                </u></mark>.
+        </li>
+
+        <li>No
+
+            <mark><u>
+                    < head>
+                </u></mark>, vão informações como o <u>título da página</u> <mark><u>(< title>)</u></mark>, <u>links
+                para estilos (CSS) e
+                configurações de
+                codificação</u>, como
+            <mark><u>
+                    < meta charset="UTF-8">
+                </u></mark>.
+        </li>
+        <li>Já o <mark><u>
+                    < body>
+                </u></mark> é onde coloco o conteúdo visível da página, como
+            <u>textos, imagens,
+                links e botões</u>. É essa estrutura básica que serve de ponto de partida para qualquer
+            site que eu
+            vá desenvolver.
+        </li>
+    </ol>
+    <p>
+        Para saber mais:
+    <ul>
+        <li><a href="https://developer.mozilla.org/pt-BR/docs/Learn_web_development/Getting_started/Your_first_website/Creating_the_content"
+                target="_blank">HTML Básico</a>
+        </li>
+    </ul>
+    </p>
+
+    <h2 id="diferença">Entendendo a diferença entre listas ordenadas e não ordenadas</h2>
+    <small><a href="#inicio">(Voltar)</a></small>
+    <p>
+        A diferença entre <strong><i>listas ordenadas</i></strong> e <strong><i>não ordenadas</i></strong> está na
+        <u>forma</u> como os itens são apresentados. <strong>Listas
+            ordenadas</strong>
+        <mark><u>seguem uma sequência, geralmente numerada, o que indica uma ordem específica entre os elementos — como
+                etapas de
+                um processo ou uma classificação</u></mark>. Já as <strong>listas não ordenadas</strong> <mark><u>usam
+                marcadores simples (como pontos ou traços) e
+                não indicam nenhuma hierarquia ou sequência, sendo ideais para listar itens soltos ou sem ordem
+                definida</u></mark>.
+    </p>
+    <p>
+        Para saber mais:
+    <ul>
+        <li><a href="https://www.portalinsights.com.br/perguntas-frequentes/qual-e-a-diferenca-entre-ul-e-ol"
+                target="_blank">Qual é a diferença entre UL e Ol?</a>
+        </li>
+    </ul>
+    </p>
+
+    <h2 id="links">Links de referências</h2>
+    <small><a href="#inicio">(Voltar)</a></small>
+    <ul>
+        <li><a href="https://www.todamateria.com.br/historia-e-evolucao-dos-computadores/"
+                target="_blank">https://www.todamateria.com.br/historia-e-evolucao-dos-computadores/</a></li>
+        <li><a href="https://www.todamateria.com.br/historia-da-internet/"
+                target="_blank">https://www.todamateria.com.br/historia-da-internet/</a></li>
+        <li><a href="https://driftweb.com.br/glossario/o-que-e-client-side-entenda-sua-importancia/"
+                target="_blank">https://driftweb.com.br/glossario/o-que-e-client-side-entenda-sua-importancia/</a></li>
+        <li><a href="https://tech.pedrogalvao.com/data/o-que-sao-servidores/"
+                target="_blank">https://tech.pedrogalvao.com/data/o-que-sao-servidores/</a></li>
+        <li><a href="https://developer.mozilla.org/pt-BR/docs/Learn_web_development/Getting_started/Your_first_website/Creating_the_content"
+                target="_blank">https://developer.mozilla.org/pt-BR/docs/Learn_web_development/Getting_started/Your_first_website/Creating_the_content</a>
+        </li>
+        <li><a href="https://www.portalinsights.com.br/perguntas-frequentes/qual-e-a-diferenca-entre-ul-e-ol"
+                target="_blank">https://www.portalinsights.com.br/perguntas-frequentes/qual-e-a-diferenca-entre-ul-e-ol</a>
+        </li>
+    </ul>
+
+</body>
+
+</html>
